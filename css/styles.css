@@ -231,8 +231,19 @@ p {
   padding-top: 0;
 }
 
-.list .item-img {
+.container .list-img {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.list-img .item-img {
+  width: 370px;
+  margin-right: 30px;
   margin-bottom: 0;
+}
+
+.list-img .item-img:nth-child(3n) {
+  margin-right: 0;
 }
 
 /* наша команда */
